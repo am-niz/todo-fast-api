@@ -1,5 +1,5 @@
 from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel
+from pydantic import BaseModel #for creating a model (its an agrement btw user and server which data is acceptable)
 from typing import List
 
 app = FastAPI()
